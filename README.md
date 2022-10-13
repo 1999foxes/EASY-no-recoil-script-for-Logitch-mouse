@@ -12,7 +12,7 @@ function OnEvent(event, arg)
 
     -- OutputLogMessage("event = %s, arg = %d\n", event, arg)       -- debug
 
-    if (event == "MOUSE_BUTTON_PRESSED" and arg == 1) then          -- left mouse pressed event
+    if (event == "MOUSE_BUTTON_PRESSED" and arg == 1) then          -- event == left mouse button pressed
         while IsMouseButtonPressed(1) and IsMouseButtonPressed(3)   -- reduce recoil while left and right mouse buttons are both pressed
         do
             MoveMouseRelative(0, step)
@@ -23,4 +23,5 @@ function OnEvent(event, arg)
     end
     
 end
+
 ```
