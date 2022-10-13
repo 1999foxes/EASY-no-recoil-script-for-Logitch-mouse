@@ -2,7 +2,7 @@
 
 # 罗技鼠标最简单的压枪宏，按住右键左键不松手，菜鸡也能变高手。
 
-`
+```
 EnablePrimaryMouseButtonEvents(true)
 
 step = 2  -- distance of mouse movements in pixel
@@ -19,4 +19,4 @@ function OnEvent(event, arg)
         end
     end
 end
-`
+```
