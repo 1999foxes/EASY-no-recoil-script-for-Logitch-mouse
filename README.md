@@ -1,0 +1,2 @@
+# SimplestNoRecoilScriptForLogitchMouse
+罗技鼠标最简单的压枪宏，按住右键左键不松手，菜鸡也能变高手。
